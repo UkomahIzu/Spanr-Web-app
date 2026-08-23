@@ -1,0 +1,79 @@
+@import './variables.css';
+
+* {
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #c7cad0 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-button {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7cad0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8acb4;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #eceef1;
+  color: var(--color-text);
+  font-family: var(--ui);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #353b46;
+  margin: 0;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent-dark);
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Common interactive transitions */
+.hover-bg-light {
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.hover-bg-light:hover {
+  background-color: #f1f3f6 !important;
+}
+
+.hover-blue-accent {
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+.hover-blue-accent:hover {
+  background-color: #eef3ff !important;
+  border-color: #0e4fff !important;
+}

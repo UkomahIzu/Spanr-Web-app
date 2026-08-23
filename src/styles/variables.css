@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --color-bg: #f4f5f7;
+  --color-surface: #ffffff;
+  --color-text: #16181d;
+  --color-accent: #0e4fff;
+  --color-accent-hover: #0b3ecc;
+  --color-accent-dark: #0930a0;
+  --color-accent-100: #eef3ff;
+  --color-accent-200: #dbe5ff;
+  --color-divider: rgba(22, 24, 29, 0.12);
+  
+  --ink-60: rgba(22, 24, 29, 0.60);
+  --ink-45: rgba(22, 24, 29, 0.45);
+  
+  --amber: #e07b00;
+  --amber-t: #fff4e3;
+  --amber-d: #8a4b00;
+  
+  --green: #12735a;
+  --green-t: #e6f2ee;
+  --green-hover: #0f5c48;
+
+  --ui: "Outfit", system-ui, sans-serif;
+}
